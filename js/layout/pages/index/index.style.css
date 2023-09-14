@@ -1,0 +1,91 @@
+/* Put here any 'index.html' specific css */
+
+.page {
+    background-image: url('../../../../medias/images/bg.jpg');
+}
+
+.error-area {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    min-height: 60px;
+    width: 100%;
+    margin: 20px 0;
+}
+.error-area > span:first-of-type {
+    color: red;
+}
+
+.inputs-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+    margin: 20px 0;
+}
+.input-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    width: 32%;
+    height: 100%;
+    background-color: #38383879;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-div > input {
+    height: 42px;
+    width: 100%;
+    font-size: 32px;
+    text-align: end;
+    border-radius: 8px;
+    background-color: #aaaaaa91;
+    border: none;
+}
+
+.input-div > .input-label {
+    font-size: 20px;
+    margin-top: 10px;
+    /* background-color: pink; */
+}
+
+
+
+.buttons-area {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.buttons-area > button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 20px 5px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: var(--on-primary);
+}
+.buttons-area > button:first-of-type {
+    background-color: #00000093;
+    border: 1px solid var(--font-color-default);
+}
+.buttons-area > button:last-of-type {
+    background-color: #38383879;
+}
